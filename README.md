@@ -13,73 +13,71 @@ Welcome to the repository for my premium personal brand website. This platform s
 
 ## ✨ Features & Design Highlights
 
-* **Fluid Interactions:** Integrated **Framer Motion** for premium, highly responsive user interactions, subtle hover states, and smooth page transitions.
-* **Component-Driven Architecture:** Built with **React** and **TypeScript** to ensure type safety, modular design, and robust code maintainability.
-* **Utility-First Styling:** Crafted a clean, modern aesthetic with an emphasis on scannability and layout rhythm using **Tailwind CSS**.
-* **Fully Responsive:** Optimized meticulously for fluid viewing experiences across mobile, tablet, and desktop viewports.
+- **Fluid Interactions:** Integrated **Framer Motion** for premium, highly responsive user interactions, subtle hover states, and smooth page transitions.
+- **Component-Driven Architecture:** Built with **React** and **TypeScript** to ensure type safety, modular design, and maintainable code structure.
+- **Utility-First Styling:** Crafted a clean, modern aesthetic using **Tailwind CSS**, focusing on readability and layout consistency.
+- **Fully Responsive Design:** Optimized for seamless experience across mobile, tablet, and desktop devices.
 
 ---
 
 ## 🛠️ Tech Stack & Tools
 
-| Layer / Purpose | Technology Used |
-| :--- | :--- |
-| **Framework** | React (v18+) |
-| **Language** | TypeScript |
-| **Styling** | Tailwind CSS |
-| **Animations** | Framer Motion |
-| **Build Tool / Bundler** | Vite |
+| Layer / Purpose      | Technology Used |
+|----------------------|-----------------|
+| Framework            | React (v18+)    |
+| Language             | TypeScript      |
+| Styling              | Tailwind CSS    |
+| Animations           | Framer Motion   |
+| Build Tool / Bundler | Vite            |
 
 ---
 
 ## 🏁 Getting Started
 
-Follow these steps to run and explore the portfolio platform locally.
+Follow these steps to run and explore the portfolio locally.
 
 ### Prerequisites
-* [Node.js](https://nodejs.org/) (v18 or higher recommended)
-* Live package manager (`npm` or `yarn`)
+
+- Node.js (v18 or higher recommended)
+- npm or yarn package manager
+
+---
 
 ### Local Setup
 
-1. **Clone the Repository**
-   ```bash
-   git clone [https://github.com/your-username/portfolio.git](https://github.com/your-username/portfolio.git)
-   cd portfolio
+#### 1. Clone the Repository
 
+```bash
+git clone https://github.com/your-username/portfolio.git
+cd portfolio
 
 Install Dependencies
-
-Bash
 npm install
-Run the Development Server
 
-Bash
+Run Development Server
 npm run dev
-Once started, open your browser and navigate to http://localhost:5173/ to view the site.
 
 Build for Production
-To compile and optimize the site for production deployment:
-
-Bash
 npm run build
+
 📂 Project Structure
-Plaintext
 ├── src/
-│   ├── components/    # Reusable UI components (Navbar, Project Cards, Buttons)
-│   ├── sections/      # Core page sections (Hero, Portfolio, Profile Snapshot)
-│   ├── assets/        # Images, SVG icons, and media files
-│   ├── App.tsx        # Main application entry and section composition
-│   └── main.tsx       # React DOM initialization
-├── index.html         # Application entry point HTML
-├── tailwind.config.js # Tailwind CSS customization layout
-└── tsconfig.json      # TypeScript compiler configurations
+│   ├── components/     # Reusable UI components (Navbar, Cards, Buttons)
+│   ├── sections/       # Page sections (Hero, Portfolio, Profile, etc.)
+│   ├── assets/         # Images, icons, media files
+│   ├── App.tsx         # Main application layout
+│   └── main.tsx        # React entry point
+├── index.html          # App HTML entry
+├── tailwind.config.js  # Tailwind configuration
+└── tsconfig.json       # TypeScript configuration
+
 📝 License
-Distributed under the MIT License. See LICENSE for more information.
+
+This project is licensed under the MIT License.
 
 🧑‍💻 Contact
-Pankaj Kumar - .NET Full Stack Engineer
 
-Website: Pankaj.dev
+Pankaj Kumar – .NET Full Stack Engineer
 
-GitHub: @your-github-username
+🌐 Website: https://white-dune-019dbd110.7.azurestaticapps.net/
+💻 GitHub: @pk-101
