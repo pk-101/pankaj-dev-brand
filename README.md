@@ -46,3 +46,40 @@ Follow these steps to run and explore the portfolio platform locally.
    ```bash
    git clone [https://github.com/your-username/portfolio.git](https://github.com/your-username/portfolio.git)
    cd portfolio
+
+
+Install Dependencies
+
+Bash
+npm install
+Run the Development Server
+
+Bash
+npm run dev
+Once started, open your browser and navigate to http://localhost:5173/ to view the site.
+
+Build for Production
+To compile and optimize the site for production deployment:
+
+Bash
+npm run build
+📂 Project Structure
+Plaintext
+├── src/
+│   ├── components/    # Reusable UI components (Navbar, Project Cards, Buttons)
+│   ├── sections/      # Core page sections (Hero, Portfolio, Profile Snapshot)
+│   ├── assets/        # Images, SVG icons, and media files
+│   ├── App.tsx        # Main application entry and section composition
+│   └── main.tsx       # React DOM initialization
+├── index.html         # Application entry point HTML
+├── tailwind.config.js # Tailwind CSS customization layout
+└── tsconfig.json      # TypeScript compiler configurations
+📝 License
+Distributed under the MIT License. See LICENSE for more information.
+
+🧑‍💻 Contact
+Pankaj Kumar - .NET Full Stack Engineer
+
+Website: Pankaj.dev
+
+GitHub: @your-github-username
