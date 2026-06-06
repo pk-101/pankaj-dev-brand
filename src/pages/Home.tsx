@@ -9,8 +9,8 @@ export default function Home() {
     <Layout>
       <HeroSection />
       <SkillsSection />
-        <ProjectsSection />
-        <AboutSection />
+      <ProjectsSection />
+      <AboutSection />
     </Layout>
   )
 }
